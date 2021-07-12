@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import {counterReducer} from './reducers/lightReducers';
+import {counterReducer} from './reducers/counter.reducers';
 
 const store = createStore(
   counterReducer,
